@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+	.nav {
+		&__btn {
+			display: none;
+		}
+
+		&__items {
+			display: flex;
+			justify-content: center;
+			
+		}
+		&__item {
+			margin: 0 1em;
+
+			a {
+				
+				padding: 0.5em 1em;
+				font-size: 1.8rem;
+			}
+		}
+	}
+}
