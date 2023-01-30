@@ -1,0 +1,30 @@
+@use '../abstracts/colors';
+.header {
+	margin-top: 50px;
+	position: relative;
+	&__hero {
+		height: 30vh;
+		background-image: colors.$bg-shadow, url('../../img/hero_small.jpg');
+		background-size: cover;
+		background-position: bottom;
+	}
+	&__text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-75%, -20%);
+		max-width: 100%;
+		padding: 0 2em;
+		color: white;
+	}
+	&__heading {
+		font-size: 1.8rem;
+		font-weight: 600;
+		span {
+			color: blue;
+		}
+	}
+    &__heading-text{
+        margin-top: 0.5em;
+    }
+}

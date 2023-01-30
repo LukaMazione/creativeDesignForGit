@@ -1,3 +1,18 @@
+@use '../abstracts/colors';
+
+@media (min-width: 576px){
+    .header{
+        &__hero{
+            background-position: bottom;
+        }
+        &__heading{
+            font-size: 4rem;
+        }
+        &__heading-text{
+            font-size: 2rem;
+        }
+    }
+}
 
 @media (min-width: 768px) {
 	.nav {
@@ -25,6 +40,23 @@
     .nav{
         &__items{
             justify-content: center;
+        }
+    }
+
+    .header{
+        &__hero{
+            height: 40vh;
+            background-position-y: bottom;
+            background-image: colors.$bg-shadow, url('../../img/hero_big.jpg');
+        }
+        &__text{
+            transform: translate(-100%, -20%);
+        }
+        &__heading{
+            font-size: 6rem;
+        }
+        &__heading-text{
+            font-size: 2.6rem;
         }
     }
 }
