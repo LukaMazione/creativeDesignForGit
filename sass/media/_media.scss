@@ -3,7 +3,7 @@
 @media (min-width: 576px){
     .header{
         &__hero{
-            background-position: bottom;
+            background-position: bottom 👉 ;
         }
         &__heading{
             font-size: 4rem;
@@ -45,18 +45,19 @@
 
     .header{
         &__hero{
-            height: 40vh;
+            height: 60vh;
             background-position-y: bottom;
             background-image: colors.$bg-shadow, url('../../img/hero_big.jpg');
         }
         &__text{
-            transform: translate(-100%, -20%);
+            transform: translate(-95%, -20%);
         }
         &__heading{
             font-size: 6rem;
         }
         &__heading-text{
             font-size: 2.6rem;
+            width: 500px;
         }
     }
 }

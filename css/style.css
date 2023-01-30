@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .wrapper {
   margin: 0 auto;
   width: 100%;
@@ -89,22 +90,22 @@ h1 {
   position: relative;
 }
 .header__hero {
-  height: 30vh;
+  height: 60vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 1, 0.4)), url("../../img/hero_small.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: bottom right;
 }
 .header__text {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-75%, -20%);
+  transform: translate(-60%, 20%);
   max-width: 100%;
   padding: 0 2em;
   color: white;
 }
 .header__heading {
-  font-size: 1.8rem;
+  font-size: 2.6rem;
   font-weight: 600;
 }
 .header__heading span {
@@ -112,11 +113,12 @@ h1 {
 }
 .header__heading-text {
   margin-top: 0.5em;
+  font-size: 1.2em;
 }
 
 @media (min-width: 576px) {
   .header__hero {
-    background-position: bottom;
+    background-position: bottom 👉;
   }
   .header__heading {
     font-size: 4rem;
@@ -148,17 +150,18 @@ h1 {
     justify-content: center;
   }
   .header__hero {
-    height: 40vh;
+    height: 60vh;
     background-position-y: bottom;
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 1, 0.4)), url("../../img/hero_big.jpg");
   }
   .header__text {
-    transform: translate(-100%, -20%);
+    transform: translate(-95%, -20%);
   }
   .header__heading {
     font-size: 6rem;
   }
   .header__heading-text {
     font-size: 2.6rem;
+    width: 500px;
   }
 }/*# sourceMappingURL=style.css.map */
