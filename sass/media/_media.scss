@@ -35,6 +35,11 @@
 			}
 		}
 	}
+    .about-us{
+        &__text{
+            font-size: 2.6rem;
+        }
+    }
 }
 @media (min-width: 992px){
     .nav{
@@ -60,6 +65,13 @@
             width: 500px;
         }
     }
+
+    .about-us{
+        &__text{
+            margin-bottom: 2em;
+        }
+    }
+
 }
 
 
