@@ -9,6 +9,7 @@
 	padding: 0 1em;
 	background-color: colors.$menuColor;
 	-webkit-tap-highlight-color: transparent;
+	scroll-margin-top: 60px;
     z-index: 1000;
 
 	&__btn {

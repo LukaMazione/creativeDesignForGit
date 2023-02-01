@@ -1,7 +1,53 @@
-.about-us{
-    &__text{
-        font-size: 1.4rem;
-        margin-bottom: 1em;
-        text-align: justify;
-    }
+@use '../abstracts/colors';
+.about-us {
+    padding: 2em 2em;
+	&__text {
+		font-size: 1.4rem;
+		margin-bottom: 1em;
+		text-align: justify;
+	}
+}
+
+.products {
+    padding: 2em 0;
+	&__box {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	&__img {
+		position: relative;
+		width: 100%;
+		height: 300px;
+		background-size: cover;
+		background-position: center;
+		text-align: center;
+		&:hover .products__option-text {
+			transform: scale(1.6) translate(-30%, -30%);
+		}
+	}
+	&__img-1 {
+		background-image: colors.$bg-shadow, url('../../img/children-small.jpg');
+	}
+	&__img-2 {
+		background-image: colors.$bg-shadow, url('../../img/keyboard-small.jpg');
+	}
+	&__img-3 {
+		background-image: colors.$bg-shadow, url('../../img/woman-small.jpg');
+	}
+	&__img-4 {
+		background-image: colors.$bg-shadow, url('../../img/laptop-small.jpg');
+	}
+	&__option-text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 2.6rem;
+		font-weight: 600;
+		color: colors.$pure-white;
+		text-transform: uppercase;
+		transition: transform 0.3s;
+	}
 }
