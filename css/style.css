@@ -205,11 +205,22 @@ h1 {
 }
 
 .contact__box {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding: 1em 0;
   font-size: 1.4rem;
+}
+.contact__title {
+  margin-bottom: 0.5em;
+}
+.contact__company-name {
+  font-size: 2rem;
+}
+.contact__company-name span {
+  color: green;
+  text-transform: uppercase;
 }
 .contact__address {
   text-align: center;
@@ -221,6 +232,31 @@ h1 {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+.contact-form__input {
+  width: 70%;
+  margin-bottom: 0.5em;
+}
+.contact-form__textarea {
+  width: 70%;
+  resize: none;
+}
+.contact-form__btn {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0.3em 0.6em;
+  width: 30%;
+}
+
+footer {
+  padding: 0.5em 0;
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: rgba(35, 33, 33, 0.75);
+}
+footer span {
+  color: green;
+  text-transform: uppercase;
 }
 
 @media (min-width: 576px) {
@@ -257,6 +293,10 @@ h1 {
   .products__img {
     width: 50%;
   }
+  .contact__box {
+    width: 500px;
+    font-size: 1.8rem;
+  }
 }
 @media (min-width: 992px) {
   .nav__items {
@@ -279,5 +319,8 @@ h1 {
   }
   .about-us__text {
     margin-bottom: 2em;
+  }
+  .contact__box {
+    font-size: 2.2rem;
   }
 }/*# sourceMappingURL=style.css.map */
