@@ -1,45 +1,44 @@
-.wrapper{
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
 }
-.scroll{
-    scroll-margin-top: 40px;
+.scroll {
+	scroll-margin-top: 40px;
 }
-.section-padding{
-    padding: 2em 2em;
+.section-padding {
+	padding: 2em 2em;
 }
-.section-padding-products{
-    padding: 2em 0;
+.section-padding-products {
+	padding: 2em 0;
 }
-.section-heading{
-    margin: 0.5em auto 1em;
-    font-size: 2.4rem;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-
-@media (min-width: 768px){
-    .section-heading{
-        font-size: 3rem;
-    }
-    .section-padding{
-        padding: 3em 3em;
-    }
-    .section-padding-products{
-        padding: 3em 0;
-    }
+.section-heading {
+	margin: 0.5em auto 1em;
+	font-size: 2.4rem;
+	text-align: center;
+	text-transform: uppercase;
 }
 
-@media (min-width: 992px){
-    .section-heading{
-        font-size: 4rem;
-    }
-    .section-padding{
-        padding: 4em 4em;
-    }
-    .section-padding-products{
-        padding: 4em 0;
-    }
+@media (min-width: 768px) {
+	.section-heading {
+		font-size: 3rem;
+	}
+	.section-padding {
+		padding: 3em 3em;
+	}
+	.section-padding-products {
+		padding: 3em 0;
+	}
+}
+
+@media (min-width: 992px) {
+	.section-heading {
+		font-size: 4rem;
+	}
+	.section-padding {
+		padding: 4em 4em;
+	}
+	.section-padding-products {
+		padding: 4em 0;
+	}
 }

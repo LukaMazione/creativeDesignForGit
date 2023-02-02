@@ -178,7 +178,7 @@ h1 {
   text-align: center;
 }
 .products__img:hover .products__option-text {
-  transform: scale(1.6) translate(-30%, -30%);
+  transform: scale(1.6) translate(-32%, -30%);
 }
 .products__img-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url("../../img/children-small.jpg");
@@ -202,6 +202,25 @@ h1 {
   color: #fff;
   text-transform: uppercase;
   transition: transform 0.3s;
+}
+
+.contact {
+  font-size: 1.4rem;
+}
+.contact__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact__address {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 576px) {
