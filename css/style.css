@@ -178,7 +178,7 @@ h1 {
   text-align: center;
 }
 .products__img:hover .products__option-text {
-  transform: scale(1.6) translate(-32%, -30%);
+  transform: scale(1.2) translate(-40%, -40%);
 }
 .products__img-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url("../../img/children-small.jpg");
@@ -204,9 +204,6 @@ h1 {
   transition: transform 0.3s;
 }
 
-.contact {
-  font-size: 1.4rem;
-}
 .contact__box {
   display: flex;
   flex-direction: column;
