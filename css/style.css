@@ -133,7 +133,7 @@ h1 {
 }
 .header__hero {
   height: 60vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url("../../img/hero_small.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url("../img/hero_small.jpg");
   background-size: cover;
   background-position: bottom right;
 }
@@ -181,16 +181,16 @@ h1 {
   transform: scale(1.2) translate(-40%, -40%);
 }
 .products__img-1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url("../../img/children-small.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url("../img/children-small.jpg");
 }
 .products__img-2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url("../../img/keyboard-small.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url("../img/keyboard-small.jpg");
 }
 .products__img-3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url("../../img/woman-small.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url("../img/woman-small.jpg");
 }
 .products__img-4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url("../../img/laptop-small.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url("../img/laptop-small.jpg");
 }
 .products__option-text {
   position: absolute;
@@ -305,7 +305,7 @@ footer span {
   .header__hero {
     height: 60vh;
     background-position-y: bottom;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url("../../img/hero_big.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url("../img/hero_big.jpg");
   }
   .header__text {
     transform: translate(-95%, -20%);

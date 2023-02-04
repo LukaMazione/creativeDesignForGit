@@ -65,7 +65,7 @@
 		&__hero {
 			height: 60vh;
 			background-position-y: bottom;
-			background-image: colors.$bg-shadow, url('../../img/hero_big.jpg');
+			background-image: colors.$bg-shadow, url('../img/hero_big.jpg');
 		}
 		&__text {
 			transform: translate(-95%, -20%);
